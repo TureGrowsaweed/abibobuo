@@ -1,0 +1,27 @@
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+main{
+    display: flex;
+    justify-content:space-between;
+}
+ul{
+    line-height: 30px;
+    padding: 0;
+    list-style-type: none;
+}
+.um{
+}
+.dois{
+    margin: 0 20px 0 20px;
+    max-width: 300px;
+}
+.tres{
+    max-width: 300px;
+    text-align: center;
+}
