@@ -1,5 +1,6 @@
 *{
     font-family: Arial, sans-serif;
+    color: black;
 }
 body{
     margin: 0 auto;
@@ -48,7 +49,7 @@ section{
 .img{
     border-radius: 50%;
     position: relative;
-    top: -4.3rem;
+    top: -0.3rem;
     object-fit: cover;
 }
 .letra{
@@ -70,13 +71,11 @@ button{
     border-radius: 1.8rem;
 }
 .imagens{
-    display: flex;
-    position: relative;
-    top: -3.125rem;
-    margin: 0 2rem;   
     gap: 0.5rem;
     height: 2rem;
     width: 2rem;
+    display: flex;
+    align-self: center;
 }
 footer{
     text-align: center;
@@ -87,4 +86,54 @@ footer{
     padding: 3rem;
     bottom: 0;
     position:fixed;
+}
+@media (max-width: 768px) {
+    header {
+        margin-top: 1.5rem;
+    }
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2rem;
+        padding: 1rem;
+    }
+    section {
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+    }
+    .tres {
+        padding: 2rem 1rem;
+        margin-top: 3rem;
+    }
+    .div {
+        margin: 0;
+    }
+    .img {
+        width: 140px;
+        height: 140px;
+        margin-top: -5rem;
+        border: 5px solid white;
+    }
+    .letra {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+    button {
+        margin-top: 1rem;
+    }
+    .imagens {
+        justify-content: center;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .imagens img {
+        width: 28px;
+        height: 28px;
+    }
+    footer {
+        position: relative;
+        margin-top: 2rem;
+        padding: 1.5rem;
+    }
 }
