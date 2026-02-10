@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4.5rem;
+}
+main{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+header h1{
+    font-size: 5.5rem;
+    color:darkblue
+}
+header p{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.tres{
+    background-color: darkblue;
+    text-align: center;
+    max-width: 70%;
+    color: white;
+}
+.perfil{
+    border-radius: 50%;
+    height: 13.5rem;
+    width: 13.5rem;
+    position: relative;
+    object-fit: cover;
+    margin-top: -5.5rem;
+}
+.tres h2{
+    font-size: 1.9rem;
+    margin-top: 0.5rem;
+    line-height: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+.tres p{ 
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin: 1rem 1rem;
+}
+.dois{
+    max-width: 70%;
+    text-align: center;
+}
+.dois h2{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: darkblue;
+}
+.dois p{
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+    margin: 0.4rem 0.4rem 1rem 0.4rem;
+}
+button{
+    background-color: white;
+    border: solid 0.2rem darkblue;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+a{
+    font-size: 1.5rem;
+    color: black;
+}
+.um{
+    max-width: 70%;
+    text-align: center;
+}
+.um h2{
+    font-size: 1.8rem;
+    margin-bottom: 0.4rem;
+    color: darkblue;
+}
+.um ul{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    list-style: none;
+}
+.um ul strong{
+    font-size: 1.5rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4.5rem;
+    font-size: 1.3rem;
+}
+@media (min-width: 768px) {
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .tres{
+        max-width: 20%;
+        margin-top: -1.5rem;
+    }
+    .dois{
+        max-width: 20%;
+        text-align: left;
+        margin: -5.8rem 3rem 0 3rem;
+    }
+    .um{
+        max-width: 20%;
+        text-align: left;
+        margin-top: -11.7rem;
+    }
+    main{
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+    }
+}
