@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: royalblue;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+
+ul {
+    line-height: 2.5rem;
+    padding: 0;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;
+    align-items: flex-start;
+}
+
+section {
+    flex: 1;
+    padding: 2rem;
+}
+
+.letrinha {
+    color: gray;
+}
+
+.aquiLink {
+    color: gray;
+}
+
+.tres {
+    background-color: orange;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    max-width: 100%;
+}
+
+.perfil {
+    position: relative;
+    border-radius: 50%;
+    margin-top: -5rem;
+}
+.ButtonContateMe {
+    background-color: white;
+    border: orange solid 2px;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 1.8rem;
+
+}
+.CorContateMe {
+    color: black;
+    text-decoration: none;
+}
+.AquiLink {
+    color: gray;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    padding: 2.5rem;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    .perfil {
+        margin-top: -3rem;
+    }
+
+    .icones {
+        scale: 70%;
+    }
+
+    footer {
+        position: relative;
+    }
+}
